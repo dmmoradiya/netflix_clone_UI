@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/netflix_clone_UI/static/css/main.b0dc0246.css",
+    "main.js": "/netflix_clone_UI/static/js/main.1ad2acfe.js",
+    "static/js/787.0904c1f0.chunk.js": "/netflix_clone_UI/static/js/787.0904c1f0.chunk.js",
+    "static/media/p5.png": "/netflix_clone_UI/static/media/p5.092338d89816ea4df58f.png",
+    "static/media/p3.png": "/netflix_clone_UI/static/media/p3.07a18751dbab60bedc07.png",
+    "static/media/p2.png": "/netflix_clone_UI/static/media/p2.a13d79e3899c8603bc73.png",
+    "static/media/p1.png": "/netflix_clone_UI/static/media/p1.f48f4bafcca018b1ac36.png",
+    "static/media/p6.png": "/netflix_clone_UI/static/media/p6.ca7239096cf9aa1f79e3.png",
+    "static/media/an.gif": "/netflix_clone_UI/static/media/an.cb26b157e94b63331ff5.gif",
+    "static/media/p4.png": "/netflix_clone_UI/static/media/p4.cece38d0d69e5f444b8a.png",
+    "static/media/slick.svg": "/netflix_clone_UI/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/netflix_clone_UI/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/netflix_clone_UI/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/netflix_clone_UI/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/netflix_clone_UI/index.html",
+    "static/media/five.svg": "/netflix_clone_UI/static/media/five.1a6f6ada8d37edf9c4a59f7ad16816f5.svg",
+    "static/media/six.svg": "/netflix_clone_UI/static/media/six.4d410db656710c14710332d27cec00a9.svg",
+    "static/media/three.svg": "/netflix_clone_UI/static/media/three.46aff20f64bfe1a300ddd5ef420fc006.svg",
+    "static/media/four.svg": "/netflix_clone_UI/static/media/four.0b5a945bede19872d5d95984d35ce12d.svg",
+    "static/media/two.svg": "/netflix_clone_UI/static/media/two.b6a11f9b406f2f13cd82608a276428e5.svg",
+    "main.b0dc0246.css.map": "/netflix_clone_UI/static/css/main.b0dc0246.css.map",
+    "main.1ad2acfe.js.map": "/netflix_clone_UI/static/js/main.1ad2acfe.js.map",
+    "787.0904c1f0.chunk.js.map": "/netflix_clone_UI/static/js/787.0904c1f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0dc0246.css",
+    "static/js/main.1ad2acfe.js"
+  ]
+}
