@@ -1,7 +1,7 @@
 import './App.css';
 import Login from "./components/Login"
 
-import { Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import Home from "./components/Home";
@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App bg-black" >
 
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <Routes>
           <Route path='/' exact element={<Login />} />
           <Route path='/home' exact element={ <>    { /*<NetflixLogo />  */} { <Home /> }  </>} />
           <Route path='/:id' exact element ={<SinglePage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );
