@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Latest from './components/Latest';
 import "./index.css";
 import SinglePage from './components/SinglePage';
+<meta name="google-site-verification" content="lhJpHwTC4LCvQ29bGAL3DO_8Hg8jV_VT1cqyVNTsGV0" />
 
 function App() {
   return (
