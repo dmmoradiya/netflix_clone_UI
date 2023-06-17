@@ -22,7 +22,7 @@ const Search2 = () => {
 
     const fetchTrending = async () => {
         setLoading(true)
-        const { data } = await axios.get(`https://api.themoviedb.org/3/search/multi?api_key=f9b315322a2adab791aa6f2bbb138d02&language=en-US&page=1&query=${one}`);
+        const { data } = await axios.get(`https://api.themoviedb.org/3/search/multi?api_key=2bb6d434c712ef7b54c243449e4f4455&language=en-US&page=1&query=${one}`);
         setContentDisplay(data.results);
         setLoading(false);
 

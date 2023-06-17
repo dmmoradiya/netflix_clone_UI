@@ -86,11 +86,11 @@ const SinglePage = () => {
 
         setLoading(true)
 
-        const { data } = await axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`);
+        const { data } = await axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=2bb6d434c712ef7b54c243449e4f4455&language=en-US`);
 
-        const data2 = await axios.get(`https://api.themoviedb.org/3/movie/${id}/similar?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1`);  // for similar
+        const data2 = await axios.get(`https://api.themoviedb.org/3/movie/${id}/similar?api_key=2bb6d434c712ef7b54c243449e4f4455&language=en-US&page=1`);  // for similar
 
-        const data3 = await axios.get(`http://api.themoviedb.org/3/movie/${id}/videos?api_key=${process.env.REACT_APP_API_KEY}`);  // for videos
+        const data3 = await axios.get(`http://api.themoviedb.org/3/movie/${id}/videos?api_key=2bb6d434c712ef7b54c243449e4f4455`);  // for videos
         setLoading(false)
 
         setYt(data3.data.results[0].key);

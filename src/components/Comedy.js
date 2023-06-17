@@ -12,7 +12,7 @@ const Comedy = () => {
 
 
   const fetchTrending = async () => {
-    const { data } = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&with_genres=12`);
+    const { data } = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=2bb6d434c712ef7b54c243449e4f4455&with_genres=12`);
     setContent(data.results)
   }
 
